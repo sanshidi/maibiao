@@ -1,0 +1,94 @@
+body{
+    word-spacing: normal;
+    color: #8d9095;
+    font-family: "微软雅黑",Helvetica,Arial,Verdana,sans-serif;
+}
+.bg-black{
+    background: #212121 none repeat center center;
+}
+.font-color-a3{
+    color: #a3a3a3;
+}
+.font-12{
+    font-size: 0.75rem;
+}
+.font-14{
+    font-size: 0.85rem;
+}
+.font-16{
+    font-size: 1rem;
+}
+.font-22{
+    font-size: 1.5rem !important;
+}
+.p-9{
+    padding: 1rem 2.5rem;
+}
+a:hover{
+    text-decoration: none;
+}
+.my-mask{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #1d1e1f !important ;
+    opacity: 0;
+    visibility: hidden;
+    transition:opacity 1s;
+    z-index: 97;
+}
+.bg-trans{
+    background-color: rgba(0,0,0,0.5);
+}
+.line{
+    border-bottom: 2px solid white;
+    width: 2rem;
+    margin: 0 auto;
+}
+.breadcrumb-item>a{
+    color: #666;
+    font-size: 14px;
+}
+.breadcrumb-item>a:hover{
+    color: black;
+}
+.breadcrumb-item + .breadcrumb-item::before{
+    content: '> ';
+}
+.bg-content{
+    background-color:#ededed;
+}
+.herder-title-news{
+    font-family: Raleway;
+    font-size: 13px;
+    color: #929292;
+}
+.common_section{
+    font-size: 14px;
+    color: #333333;
+    padding: 0.1px;
+    transition: all 0.5s;
+    text-align: left;
+}
+@media (min-width: 768px) {
+    .common_section{
+        padding:2rem 3rem;
+    }
+}
+@media (min-width:992px) {
+    .common_section{
+        padding: 2rem 2.5rem;
+    }
+}
+.fa{
+    position: relative;
+    top: 1px;
+}
+.close{
+    transition: transform 0.5s;
+}
+.close:hover{
+    transform: rotate(90deg)
+}
